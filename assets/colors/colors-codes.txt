@@ -1,0 +1,11 @@
+Your selected colors:
+
+    Text: #120402 - rgb(18, 4, 2) - hsl(8, 80%, 4%)
+    Background: #fffcf5 - rgb(255, 252, 245) - hsl(42, 100%, 98%)
+    Primary: #ce2212 - rgb(206, 34, 18) - hsl(5, 84%, 44%)
+    Secondary: #34762d - rgb(52, 118, 45) - hsl(114, 45%, 32%)
+    Accent: #916336 - rgb(145, 99, 54) - hsl(30, 46%, 39%)
+
+Realtime Colors link for selected colors: https://www.realtimecolors.com/?colors=120402-fffcf5-ce2212-34762d-916336&fonts=Montserrat-Inter
+
+Thanks for using RealtimeColors.com!

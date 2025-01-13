@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- META ATTRIBUTES -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>&#127876; Wintermelon Milk Tea | Holiday Bites</title>
+
+	<!-- BS5 SETUP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- CSS SETUP -->
+	<link rel="stylesheet" href="/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- JS SETUP -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<style>
+		body {
+			background-image: url('https://sugaryums.com/wp-content/uploads/2022/03/Wintermelon-Milk-Tea-SugarYums-10.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.container {
+			border: 2px solid rgba(255, 255, 255, 0.25);
+			box-shadow: 0 0 40px 1px rgba(0, 0, 0, 0.5);
+			backdrop-filter: blur(10px);
+		}
+
+		.recipe-title {
+			font-family: 'Montserrat';
+			font-weight: 700;
+			text-shadow: 0 5px 10px var(--hb-primary),
+            0 -5px 10px var(--hb-primary);
+		}
+
+		.recipe-image {
+			box-shadow: 0 5px 10px var(--hb-accent);
+			height: 500px;
+			width: 100%;
+			object-fit: cover;
+		}
+
+		.recipe-heading {
+			font-family: 'Montserrat';
+			font-weight: 600;
+			font-size: 30px !important;
+			text-shadow: 0 5px 8px var(--hb-secondary),
+			0 -5px 8px var(--hb-secondary);
+		}
+
+		.table {
+			border: 4px solid var(--hb-accent-2);
+		}
+
+		.table th {
+			font-family: 'Inter';
+			color: var(--hb-primary);
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<!-- NAVIGATION BAR -->
+	<nav class="navbar navbar-expand-lg">
+		<div class="container-fluid">
+			<!-- LOGO -->
+			<a href="/index.html" class="navbar-brand">
+				<img src="/assets/img/logo.png" alt="Holiday Bites"> 
+			</a>
+			<!-- TOGGLER -->
+			<button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"> 
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- CONTENT -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<!-- LINKS -->
+				<ul class="navbar-nav nav-pills">
+					<li class="nav-item px-1">
+						<a href="/index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item px-1 dropdown">
+						<a href="/recipes.html" class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown">Recipes</a>
+						<ul class="dropdown-menu">
+							<li><a href="/recipes.html" class="dropdown-item">All</a></li>
+							<li><a href="/recipes.html" class="dropdown-item">Drinks</a></li>
+							<li><a href="/recipes.html" class="dropdown-item">Appetizer</a></li>
+							<li><a href="/recipes.html" class="dropdown-item">Main Course</a></li>
+							<li><a href="/recipes.html" class="dropdown-item">Dessert</a></li>
+						</ul>
+					</li>
+					<li class="nav-item px-1">
+						<a href="/about.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item px-1">
+						<a href="/submit.html" class="nav-link nav-link-submit">Submit Recipe</a>
+					</li>
+				</ul>
+				<!-- SEARCH BAR -->
+				<div class="navbar-nav ms-auto">
+					<form class="d-flex">
+						<input type="text" class="form-control" placeholder="Search">
+						<button class="btn btn-dark" type="button">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- END NAVIGATION BAR -->
+
+	<!-- RECIPE -->
+	<div class="container my-5 rounded-5">
+		<h1 class="text-center recipe-title mt-3 text-light">Wintermelon Milk Tea</h1>
+		<div class="row my-3">
+			<div class="col-xl-4 col-12">
+				<img src="https://sugaryums.com/wp-content/uploads/2022/03/Wintermelon-Milk-Tea-SugarYums-6.jpg" class="recipe-image mx-auto d-flex rounded-3"> <br>
+				<div class="row justify-content-center">
+					<div class="col-auto">
+						<a href="https://sugaryums.com/wintermelon-milk-tea/" class="btn btn-danger rounded-4 text-center">OG Recipe</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-8 col-12">
+				<h3 class="text-center recipe-heading mt-xl-0 mt-5 text-light">Ingredients</h3>
+				<table class="table table-bordered text-center">
+					<thead>
+						<tr class="table-danger">
+							<th>Wintermelon Syrup</th>
+							<th>Tea Base</th>
+							<th>Tapioca pearls</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>5 cups wintermelon, peeled and cubes (900 grams)</td>
+							<td>9 teaspoons Jasmine green tea, loose leaf</td>
+							<td>1 ¾ cups brown sugar boba pearls (300 grams)</td>
+						</tr>
+						<tr>
+							<td>⅔ cup brown sugar (150 grams)</td>
+							<td>6 cups water, filtered (1.5 litres)</td>
+							<td>9 cups water (2 litres)</td>
+						</tr>
+						<tr>
+							<td>1.8 oz. rock sugar (50 grams)</td>
+							<td>1 ½ cups whole milk</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>ice cubes</td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<h3 class="text-center recipe-heading mt-3 text-light">Instructions</h3>
+				<table class="table table-bordered">
+					<thead>
+						<tr class="table-danger text-center">
+							<th>#</th>
+							<th>Wintermelon Syrup</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="text-danger text-center px-3">1</td>
+							<td>Peel and chop fresh wintermelon into small cubes. Place them in a large bowl and sprinkle the brown sugar on top. Mix well to combine, then let it sit for 1 hour. After 1 hour, the wintermelon will produce a lot of juice.</td>
+						</tr>
+						<tr>
+							<td class="text-danger text-center px-3">2</td>
+							<td>Transfer the mixture (including juices) into a pot. Cook over medium heat until the liquid starts bubbling.</td>
+						</tr>
+						<tr>
+							<td class="text-danger text-center px-3">3</td>
+							<td>Mix in the rock sugar, then reduce the heat to low and simmer for 1 hour. Mix every 5-10 minutes to prevent the fruit from burning.</td>
+						</tr>
+						<tr>
+							<td class="text-danger text-center px-3">4</td>
+							<td>After 1 hour, the fruit should look translucent and the juices will be thicker, like a syrup.</td>
+						</tr>
+                        <tr>
+							<td class="text-danger text-center px-3">5.1</td>
+							<td>Option 1: use a large sieve to remove the fruit flesh and keep only the liquid syrup.</td>
+						</tr>
+                        <tr>
+							<td class="text-danger text-center px-3">5.2</td>
+							<td>Option 2: place the entire mixture, including fruit flesh into a food processor. Pulse until a very fine paste forms. Pass the mixture through a sieve to remove larger pieces of fruit.</td>
+						</tr>
+                        <tr>
+							<td class="text-danger text-center px-3">6</td>
+							<td>Let the syrup cool down completely to room temperature.</td>
+						</tr>
+					</tbody>
+				</table>
+                <table class="table table-bordered">
+					<thead>
+						<tr class="table-danger text-center">
+							<th>#</th>
+							<th>Tea Base</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="text-danger text-center px-3">1</td>
+							<td>Boil filtered water in a kettle to 175°F (80°C). Place the Jasmine green tea leaves into a teapot fitted with a mesh infuser.</td>
+						</tr>
+						<tr>
+							<td class="text-danger text-center px-3">2</td>
+							<td>Pour the hot water over the tea leaves, cover and let steep for 3 minutes. Do not steep for longer than this as it can make the tea bitter.</td>
+						</tr>
+						<tr>
+							<td class="text-danger text-center px-3">3</td>
+							<td>Remove the tea leaves and discard. Cool down to room temperature, then refrigerate for 30 minutes to 1 hour.</td>
+						</tr>
+					</tbody>
+				</table>
+                <table class="table table-bordered">
+					<thead>
+						<tr class="table-danger text-center">
+							<th>#</th>
+							<th>Tapioca Pearls + Assembly</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="text-danger text-center px-3">1</td>
+							<td>Cook the brown sugar boba pearls as indicated on the package. Once cooked, transfer then to ice water. Use within a few minutes for the best chewy texture.</td>
+						</tr>
+						<tr>
+							<td class="text-danger text-center px-3">2</td>
+							<td>In a tall serving glass, place 2-3 tablespoons of wintermelon syrup. Adjust amount to personal preference (more syrup for a sweeter drink, less for a healthier beverage).</td>
+						</tr>
+						<tr>
+							<td class="text-danger text-center px-3">3</td>
+							<td>Pour cold tea over the syrup, then mix everything together to dissolve the wintermelon syrup.</td>
+						</tr>
+						<tr>
+							<td class="text-danger text-center px-3">4</td>
+							<td>Add in the desired amount of tapioca pearls. Recommended amount is 2-3 tablespoons of cooked boba.</td>
+						</tr>
+                        <tr>
+							<td class="text-danger text-center px-3">!!!</td>
+							<td>Top with cold milk and finish with ice cubes. Enjoy immediately!</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!-- END RECIPE -->
+</body>
+</html>

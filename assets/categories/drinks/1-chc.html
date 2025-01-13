@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- META ATTRIBUTES -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>&#127876; Christmas Hot Cocoa | Holiday Bites</title>
+
+	<!-- BS5 SETUP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- CSS SETUP -->
+	<link rel="stylesheet" href="/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- JS SETUP -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<style>
+		body {
+			background-image: url('https://www.texanerin.com/content/uploads/2022/11/christmas-hot-chocolate-image-1200l-250x250.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+
+		.container {
+			border: 2px solid rgba(255, 255, 255, 0.25);
+			box-shadow: 0 0 40px 1px rgba(0, 0, 0, 0.5);
+			backdrop-filter: blur(10px);
+		}
+
+		.recipe-title {
+			font-family: 'Montserrat';
+			font-weight: 700;
+			text-shadow: 0 5px 10px var(--hb-primary),
+            0 -5px 10px var(--hb-primary);
+		}
+
+		.recipe-image {
+			box-shadow: 0 5px 10px var(--hb-accent);
+			height: 500px;
+			width: 100%;
+			object-fit: cover;
+		}
+
+		.recipe-heading {
+			font-family: 'Montserrat';
+			font-weight: 600;
+			font-size: 30px !important;
+			text-shadow: 0 5px 8px var(--hb-secondary),
+			0 -5px 8px var(--hb-secondary);
+		}
+
+		.table {
+			border: 4px solid var(--hb-accent-2);
+		}
+
+		.table th {
+			font-family: 'Inter';
+			color: var(--hb-primary);
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<!-- NAVIGATION BAR -->
+	<nav class="navbar navbar-expand-lg">
+		<div class="container-fluid">
+			<!-- LOGO -->
+			<a href="/index.html" class="navbar-brand">
+				<img src="/assets/img/logo.png" alt="Holiday Bites"> 
+			</a>
+			<!-- TOGGLER -->
+			<button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"> 
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- CONTENT -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<!-- LINKS -->
+				<ul class="navbar-nav nav-pills">
+					<li class="nav-item px-1">
+						<a href="/index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item px-1 dropdown">
+						<a href="/recipes.html" class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown">Recipes</a>
+						<ul class="dropdown-menu">
+							<li><a href="/recipes.html" class="dropdown-item">All</a></li>
+							<li><a href="/recipes.html" class="dropdown-item">Drinks</a></li>
+							<li><a href="/recipes.html" class="dropdown-item">Appetizer</a></li>
+							<li><a href="/recipes.html" class="dropdown-item">Main Course</a></li>
+							<li><a href="/recipes.html" class="dropdown-item">Dessert</a></li>
+						</ul>
+					</li>
+					<li class="nav-item px-1">
+						<a href="/about.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item px-1">
+						<a href="/submit.html" class="nav-link nav-link-submit">Submit Recipe</a>
+					</li>
+				</ul>
+				<!-- SEARCH BAR -->
+				<div class="navbar-nav ms-auto">
+					<form class="d-flex">
+						<input type="text" class="form-control" placeholder="Search">
+						<button class="btn btn-dark" type="button">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- END NAVIGATION BAR -->
+
+	<!-- RECIPE -->
+	<div class="container my-5 rounded-5">
+		<h1 class="text-center recipe-title mt-3 text-light">Christmas Hot Cocoa</h1>
+		<div class="row my-3">
+			<div class="col-xl-4 col-12">
+				<img src="https://www.dinneratthezoo.com/wp-content/uploads/2023/12/christmas-hot-chocolate-final-3.jpg" class="recipe-image mx-auto d-flex rounded-3"> <br>
+				<div class="row justify-content-center">
+					<div class="col-auto">
+						<a href="https://www.dinneratthezoo.com/christmas-hot-chocolate" class="btn btn-danger rounded-4 text-center">OG Recipe #1</a>
+					</div>
+					<div class="col-auto">
+						<a href="https://www.texanerin.com/the-ultimate-hot-chocolate/" class="btn btn-danger rounded-4 text-center">OG Recipe #2</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xl-8 col-12">
+				<h3 class="text-center recipe-heading mt-xl-0 mt-5 text-light">Ingredients</h3>
+				<table class="table table-bordered text-center">
+					<thead>
+						<tr class="table-danger">
+							<th>Ingredient</th>
+							<th>Quantity</th>
+							<th>Optional</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>evaporated milk</td>
+							<td>1 12-ounce (340-gram) can</td>
+							<td>whole milk</td>
+						</tr>
+						<tr>
+							<td>semisweet chocolate chips</td>
+							<td>2/3 cup (113 grams)</td>
+							<td>unsweetened cocoa powder</td>
+						</tr>
+						<tr>
+							<td>salt</td>
+							<td>a pinch</td>
+							<td>granulated sugar</td>
+						</tr>
+						<tr>
+							<td>vanilla extract</td>
+							<td>1 tsp</td>
+							<td>whipped cream (or any topping)</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<h3 class="text-center recipe-heading mt-3 text-light">Instructions</h3>
+				<table class="table table-bordered">
+					<thead>
+						<tr class="table-danger text-center">
+							<th>#</th>
+							<th>What do I do?</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="text-danger text-center px-3">1</td>
+							<td>In a saucepan over medium low heat, stir the evaporated milk and chocolate. <br> (Using optional ingredients, stir the milk, cocoa powder, and sugar.)</td>
+						</tr>
+						<tr>
+							<td class="text-danger text-center px-3">2</td>
+							<td>Continue stirring until everything is well combined.</td>
+						</tr>
+						<tr>
+							<td class="text-danger text-center px-3">3</td>
+							<td>Stir in the remaining ingredients except the vanilla extract until all the chocolate is melted.</td>
+						</tr>
+						<tr>
+							<td class="text-danger text-center px-3">4</td>
+							<td>Add in the vanilla extract. Let it sit for a few minutes and then serve with toppings!</td>
+						</tr>
+						<tr>
+							<td class="text-danger text-center px-3">!!!</td>
+							<td>Too thick? Add milk to taste. This drink can be covered and refrigerated for 3-4 days.</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!-- END RECIPE -->
+</body>
+</html>
